@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
+    // photos host
+    images: {
+        domains: ['picsum.photos'],
+    },
+    experimental: {
+        appDir: true,
+    },
 }
 
 module.exports = nextConfig
